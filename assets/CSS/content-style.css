@@ -1,6 +1,9 @@
 @media only screen and (max-width: 600px) {
-  .text {
+  .bg-img {
     background-image: url("/assets/images/Header-bg.png");
+  }
+
+  .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
