@@ -3,6 +3,12 @@
   height: "180";
 }
 
+.rec1 rect {
+  width: "20";
+  height: "30";
+  fill: #EBEBFF;
+}
+
 .content {
   display: flex;
   width: 100%;
