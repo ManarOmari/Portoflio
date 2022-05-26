@@ -1,17 +1,17 @@
-.content{
+.content {
     display: flex;
     width: 100%;;
 }
-.text{
+.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.text h1{
+.text h1 {
     margin-bottom: 11px;
 }
-.text p{
+.text p {
     justify-content: center;
     align-items: center;
     max-width: 42%;
