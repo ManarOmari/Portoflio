@@ -7,8 +7,8 @@
     margin-bottom: 20px;
   }
 
-  .footer-btns
-  {
+  .footer-btns {
+  
     display: flex;
     justify-content: center;
   }
@@ -44,7 +44,7 @@
     height: 40px;
     border: none;
     margin-left: 20px;
-}
+  }
 
   .anglelist {
     background-color: ghostwhite;
@@ -63,8 +63,8 @@
   margin-bottom: 20px;
 }
 
-.footer-btns
-{
+.footer-btns {
+
   display: flex;
   justify-content: center;
 }
