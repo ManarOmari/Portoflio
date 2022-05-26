@@ -1,34 +1,31 @@
-.rec1 svg {
-  width: "400";
-  height: "180";
-}
+@media only screen and (max-width: 600px) {
+  .text {
+    background-image: url("/assets/images/Header-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.rec1 rect {
-  fill: #ebebff;
-}
-
-.content {
-  display: flex;
-  width: 100%;
+  .text figcaption {
+    max-width: 50%;
+    margin-top: 10px;
+    margin-left: 214px;
+    font-size: 20px;
+  }
 }
 
 .text {
+  background-image: url("/assets/images/Header-bg.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.text h1 {
-  margin-bottom: 11px;
-}
-
-.text p {
-  justify-content: center;
-  align-items: center;
-  max-width: 42%;
-  margin-left: 224px;
-  margin-top: 0;
-  font-size: 16px;
-  font-family: system-ui;
+.text figcaption {
+  max-width: 50%;
+  margin-top: 10px;
+  margin-left: 214px;
+  font-size: 20px;
 }
