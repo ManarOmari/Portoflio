@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) {
   .bg-img {
     background-image: url("/assets/images/Header-bg.png");
+    background-repeat: repeat;
   }
 
   .text {
@@ -13,9 +14,14 @@
   .text figcaption {
     max-width: 50%;
     margin-top: 10px;
-    margin-left: 214px;
-    font-size: 20px;
+    margin-left: 164px;
+    font-size: 18px;
   }
+}
+
+.bg-img {
+  background-image: url("/assets/images/Header-bg.png");
+  background-repeat: repeat;
 }
 
 .text {
@@ -29,6 +35,6 @@
 .text figcaption {
   max-width: 50%;
   margin-top: 10px;
-  margin-left: 214px;
-  font-size: 20px;
+  margin-left: 164px;
+  font-size: 18px;
 }
