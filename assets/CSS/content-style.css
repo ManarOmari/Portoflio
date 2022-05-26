@@ -1,15 +1,12 @@
 .content {
   display: flex;
-  width: 100%;
-
-}
+  width: 100%;}
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
-}
+  align-items: center;}
+
 .text h1 {
   margin-bottom: 11px;
 }
