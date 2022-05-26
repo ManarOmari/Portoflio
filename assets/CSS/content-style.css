@@ -9,14 +9,14 @@
   align-items: center;
 }
 .text h1 {
-    margin-bottom: 11px;
+  margin-bottom: 11px;
 }
 .text p {
-    justify-content: center;
-    align-items: center;
-    max-width: 42%;
-    margin-left: 224px;
-    margin-top: 0;
-    font-size: 16px;
-    font-family: system-ui;
+  justify-content: center;
+  align-items: center;
+  max-width: 42%;
+  margin-left: 224px;
+  margin-top: 0;
+  font-size: 16px;
+  font-family: system-ui;
 }
