@@ -1,3 +1,8 @@
+.rec1 svg {
+  width: "400";
+  height: "180";
+}
+
 .content {
   display: flex;
   width: 100%;
