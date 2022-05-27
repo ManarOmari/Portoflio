@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 439px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-btns {
+    display: flex;
+    justify-content: center;
+  }
+
+  .twitter {
+    background-color: ghostwhite;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    margin-left: -123px;
+  }
+
+  .linkedin {
+    background-color: ghostwhite;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+  }
+
+  .meduim {
+    background-color: ghostwhite;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+  }
+
+  .github {
+    background-color: ghostwhite;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+  }
+
+  .anglelist {
+    background-color: ghostwhite;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 439px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-btns {
+  display: flex;
+  margin-left: 432px;
+}
+
+.twitter {
+  background-color: ghostwhite;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 10px;
+}
+
+.linkedin {
+  background-color: ghostwhite;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+}
+
+.meduim {
+  background-color: ghostwhite;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+}
+
+.github {
+  background-color: ghostwhite;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+}
+
+.anglelist {
+  background-color: ghostwhite;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+}
