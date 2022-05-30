@@ -16,9 +16,11 @@ https://github.com/ManarOmari/Portoflio/tree/main
 
 ## Getting Started
 
++started to buils mobile sketon for a Protoflio template 
 
++first : header contains a logo and tool bar 
 
-To get a local copy up and running follow these simple example steps.
++then set background image for the content section which conains a text and images
 
 ### Prerequisites
 
