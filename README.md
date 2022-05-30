@@ -15,12 +15,12 @@ https://github.com/ManarOmari/Portoflio/tree/main
 
 
 ## Getting Started
-started to buils mobile sketon for a Protoflio template 
-first : header contains a logo and tool bar 
-then set background image for the content section which conains a text and images 
 
++started to buils mobile sketon for a Protoflio template 
 
++first : header contains a logo and tool bar 
 
++then set background image for the content section which conains a text and images
 
 ### Prerequisites
 
