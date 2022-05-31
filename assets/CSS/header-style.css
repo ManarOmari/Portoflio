@@ -1,19 +1,24 @@
 @media only screen and (max-width: 768px) {
-  html, body {
+  * {
+    box-sizing: border-box;
     overflow: hidden;
+  }
+
+  html, body {
+    
     max-width: 1440px;
-    min-width:300px;
-    min-height: 200px;
     max-height:916px;
+    overflow: hidden;
+    background-image: url(/assets/images/Header-img.png);
+    background-repeat: no-repeat;
+    background-size: initial;
     top: 1px;
     margin: 0; 
-    background-image: url(/assets/images/Header-bgx.png);
-    
+
     }
 
   header {
-    overflow: hidden;
-    height: 90%;
+    position: fixed;
     display: flex;
     width: 100%; 
     max-width: 100%;
@@ -48,8 +53,8 @@
     flex-direction: row;
     width: 70%; 
     max-width: 100%;
-    height: 50px;
-    max-height: 50px;
+    height: 90%;
+    max-height: 91%;
     font-family: Poppins;
     font-weight: 500;
     line-height: 20px;
@@ -84,34 +89,199 @@ ul li a {
 .text {
   display: flex;
   flex-direction: column;
-  width: 920px;
-  max-width: 920px;
-   height: 122px; 
-   max-height: 122px;;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
-  margin-inline-start: 12px;
-  margin-top: 222px;
+  margin-inline-start: 25px;
+  margin-top: 121px;
+  height: 100%;
 }
 
 .text h1 {
- width: 100%;
-  margin-left: 73px;
-font-family: Poppins;
-margin-bottom: 7px;
-line-height: 73%;
+  width: 90%;
+  margin-left: 60px;
+  font-family: Poppins;
+  margin-bottom: 5px;
+  line-height: 23px;
+  font-size: x-large;
 
 }
 
 .text pre {
-  width: 920px;
-  height: 98px;
-  font-size: 12px;
-  margin-left: 10px;
-  margin-top: 2px;
+  width: 90%;
+  height: 65px;
+  font-size: 13px;
+  margin-left: 0px;
+  margin-top: 5px;
+  line-height: 93%;
+  vertical-align: top;
+  margin-bottom: 0px;
 }
 
 .text h1:hover {
   text-decoration: underline;
 }
+
+.preConn {
+  margin-top: 0px;
+  margin-left: 93px;
+  font-size: 14px;
+ }
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-inline: 87px;
+  justify-content: space-around;
+  
 }
+.icons img {
+  width: 30px;
+  height:20px;
+}
+.twitter img {
+  padding-right: 100px;
+}
+
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html, body {
+  
+  max-width: 1440px;
+  max-height:916px;
+  overflow: hidden;
+  background-image: url(/assets/images/Header-img.png);
+  background-repeat: no-repeat;
+  background-size: initial;
+  top: 1px;
+  margin: 0; 
+
+  }
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%; 
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.flex-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+  max-width: 100%;
+  height:100%;
+  max-height: 100%;
+}
+
+.logo {
+  max-width: 30%;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.logo img {
+  width: 76px;
+  height: 20px;
+}
+
+.flex-container-ul {
+  
+  display: flex;
+  flex-direction: row;
+  width: 70%; 
+  max-width: 100%;
+  height: 90%;
+  max-height: 91%;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 12px;
+}
+
+.flex-container-ul ul {
+ list-style-type: none;
+ margin-left: 12px;
+ margin-top: 10px;
+
+}
+
+.flex-container-ul ul li { 
+  display: inline;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Poppins;
+  align-items: center;
+  
+}
+
+
+ul li a {
+text-decoration: none;
+
+}
+
+.flex-container-ul a:hover {
+text-decoration: underline;
+}
+.text {
+display: flex;
+flex-direction: column;
+ justify-content: center;
+align-items: center;
+margin-inline-start: 25px;
+margin-top: 121px;
+height: 100%;
+}
+
+.text h1 {
+width: 90%;
+margin-left: 60px;
+font-family: Poppins;
+margin-bottom: 5px;
+line-height: 23px;
+font-size: x-large;
+
+}
+
+.text pre {
+width: 90%;
+height: 65px;
+font-size: 13px;
+margin-left: 0px;
+margin-top: 5px;
+line-height: 93%;
+vertical-align: top;
+margin-bottom: 0px;
+}
+
+.text h1:hover {
+text-decoration: underline;
+}
+
+.preConn {
+margin-top: 0px;
+margin-left: 93px;
+font-size: 14px;
+}
+.icons {
+display: flex;
+flex-direction: row;
+margin-inline: 87px;
+justify-content: space-around;
+
+}
+.icons img {
+width: 30px;
+height:20px;
+}
+.twitter img {
+padding-right: 100px;
+}
+
