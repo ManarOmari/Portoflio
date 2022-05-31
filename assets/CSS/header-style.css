@@ -4,16 +4,17 @@
     overflow: hidden;
   }
 
-  html, body {
+  html, 
+  body 
+  {
     max-width: 1440px;
     max-height: 916px;
     overflow: hidden;
     background-image: url(/assets/images/Header-img.png);
     background-repeat: no-repeat;
     background-size: initial;
-    top: 1px;
     margin: 0; 
-    }
+  }
 
   header {
     position: fixed;
@@ -152,7 +153,6 @@ html, body {
   background-size: initial;
   top: 1px;
   margin: 0; 
-
   }
 
 header {
@@ -186,7 +186,6 @@ header {
 }
 
 .flex-container-ul {
-  
   display: flex;
   flex-direction: row;
   width: 70%; 
@@ -203,7 +202,6 @@ header {
  list-style-type: none;
  margin-left: 12px;
  margin-top: 10px;
-
 }
 
 .flex-container-ul ul li { 
@@ -212,13 +210,10 @@ header {
   font-weight: 500;
   font-family: Poppins;
   align-items: center;
-  
 }
-
 
 ul li a {
 text-decoration: none;
-
 }
 
 .flex-container-ul a:hover {
