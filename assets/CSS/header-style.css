@@ -4,9 +4,7 @@
     overflow: hidden;
   }
 
-  html,  body
-  
-  {
+  html,  body {
     max-width: 1440px;
     max-height: 916px;
     overflow: hidden;
@@ -15,7 +13,7 @@
     background-size: initial;
     margin: 0; 
   }
-
+ 
   header {
     position: fixed;
     display: flex;
@@ -29,9 +27,9 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    width: 100%; 
+    width: 100%;
     max-width: 100%;
-    height:100%;
+    height: 100%;
     max-height: 100%;
   }
 
@@ -60,12 +58,12 @@
   }
 
   .flex-container-ul ul {
-   list-style-type: none;
-   margin-left: 12px;
-   margin-top: 10px;
- }
+    list-style-type: none;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
 
-.flex-container-ul ul li { 
+  .flex-container-ul ul li {
     display: inline;
     font-size: 15px;
     font-weight: 500;
@@ -73,68 +71,68 @@
     align-items: center;
   }
 
-ul li a {
-  text-decoration: none; 
- }
+  ul li a {
+    text-decoration: none;
+  }
 
-.flex-container-ul a:hover {
-  text-decoration: underline;
-}
+  .flex-container-ul a:hover {
+    text-decoration: underline;
+  }
 
-.text {
-  display: flex;
-  flex-direction: column;
-   justify-content: center;
-  align-items: center;
-  margin-inline-start: 25px;
-  margin-top: 121px;
-  height: 100%;
-}
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start: 25px;
+    margin-top: 121px;
+    height: 100%;
+  }
 
-.text h1 {
-  width: 90%;
-  margin-left: 60px;
-  font-family: poppins;
-  margin-bottom: 5px;
-  line-height: 23px;
-  font-size: x-large;
-}
+  .text h1 {
+    width: 90%;
+    margin-left: 60px;
+    font-family: poppins;
+    margin-bottom: 5px;
+    line-height: 23px;
+    font-size: x-large;
+  }
 
-.text pre {
-  width: 90%;
-  height: 65px;
-  font-size: 13px;
-  margin-left: 0px;
-  margin-top: 5px;
-  line-height: 93%;
-  vertical-align: top;
-  margin-bottom: 0px;
-}
+  .text pre {
+    width: 90%;
+    height: 65px;
+    font-size: 13px;
+    margin-left: 0px;
+    margin-top: 5px;
+    line-height: 93%;
+    vertical-align: top;
+    margin-bottom: 0px;
+  }
 
-.text h1:hover {
-  text-decoration: underline;
-}
+  .text h1:hover {
+    text-decoration: underline;
+  }
 
-.preConn {
-  margin-top: 0px;
-  margin-left: 93px;
-  font-size: 14px;
- }
+  .preConn {
+    margin-top: 0px;
+    margin-left: 93px;
+    font-size: 14px;
+  }
 
-.icons {
-  display: flex;
-  flex-direction: row;
-  margin-inline: 87px;
-  justify-content: space-around;
-}
+  .icons {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 87px;
+    justify-content: space-around;
+  }
 
-.icons img {
-  width: 30px;
-  height:20px;
-}
+  .icons img {
+    width: 30px;
+    height:20px;
+  }
 
-.twitter img {
-  padding-right: 100px;
+  .twitter img {
+    padding-right: 100px;
   }
 }
 
@@ -152,7 +150,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: initial;
   top: 1px;
-  margin: 0; 
+  margin: 0;
+
 }
 
 header {
@@ -213,64 +212,64 @@ header {
 }
 
 ul li a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .flex-container-ul a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .text {
-display: flex;
-flex-direction: column;
- justify-content: center;
-align-items: center;
-margin-inline-start: 25px;
-margin-top: 121px;
-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: 25px;
+  margin-top: 121px;
+  height: 100%;
 }
 
 .text h1 {
-width: 90%;
-margin-left: 60px;
-font-family: Poppins;
-margin-bottom: 5px;
-line-height: 23px;
-font-size: x-large;
+  width: 90%;
+  margin-left: 60px;
+  font-family: Poppins;
+  margin-bottom: 5px;
+  line-height: 23px;
+  font-size: x-large;
 }
 
 .text pre {
-width: 90%;
-height: 65px;
-font-size: 13px;
-margin-left: 0px;
-margin-top: 5px;
-line-height: 93%;
-vertical-align: top;
-margin-bottom: 0px;
+  width: 90%;
+  height: 65px;
+  font-size: 13px;
+  margin-left: 0px;
+  margin-top: 5px;
+  line-height: 93%;
+  vertical-align: top;
+  margin-bottom: 0px;
 }
 
 .text h1:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .preConn {
-margin-top: 0px;
-margin-left: 93px;
-font-size: 14px;
+  margin-top: 0px;
+  margin-left: 93px;
+  font-size: 14px;
 }
 .icons {
-display: flex;
-flex-direction: row;
-margin-inline: 87px;
-justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin-inline: 87px;
+  justify-content: space-around;
 }
 
 .icons img {
-width: 30px;
-height:20px;
+  width: 30px;
+  height:20px;
 }
 
 .twitter img {
-padding-right: 100px;
+  padding-right: 100px;
 }
