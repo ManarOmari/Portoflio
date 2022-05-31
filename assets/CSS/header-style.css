@@ -102,11 +102,9 @@
     width: 90%;
     height: 65px;
     font-size: 13px;
-    margin-left: 0px;
     margin-top: 5px;
     line-height: 93%;
     vertical-align: top;
-    margin-bottom: 0px;
   }
 
   .text h1:hover {
@@ -114,7 +112,6 @@
   }
 
   .preConn {
-    margin-top: 0px;
     margin-left: 93px;
     font-size: 14px;
   }
