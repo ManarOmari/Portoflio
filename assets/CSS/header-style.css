@@ -102,34 +102,28 @@
     width: 90%;
     height: 65px;
     font-size: 13px;
-    margin-top: 5px;
+    margin-top: 10px;
     line-height: 93%;
     vertical-align: top;
+    margin-bottom: 1px;
   }
 
   .text h1:hover {
     text-decoration: underline;
   }
 
-  .preConn {
-    margin-left: 93px;
-    font-size: 14px;
-  }
-
   .icons {
     display: flex;
     flex-direction: row;
-    margin-inline: 87px;
-    justify-content: space-around;
-  }
-
-  .icons img {
-    width: 30px;
+    width: 170px;
     height: 20px;
+    margin-inline: 510px;
+    justify-content: space-between;
+    margin-left: 105px;
   }
-
   .twitter img {
-    padding-right: 100px;
+    height: 20px;
+    width: 20px;
   }
 }
 
@@ -238,32 +232,26 @@ ul li a {
   width: 90%;
   height: 65px;
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 10px;
   line-height: 93%;
   vertical-align: top;
+  margin-bottom: 1px;
 }
 
 .text h1:hover {
   text-decoration: underline;
 }
 
-.preConn {
-  margin-left: 93px;
-  font-size: 14px;
-}
-
 .icons {
   display: flex;
   flex-direction: row;
-  margin-inline: 87px;
-  justify-content: space-around;
-}
-
-.icons img {
-  width: 30px;
   height: 20px;
+  width: 170px;
+  margin-inline: 510px;
+  justify-content: space-between;
+  margin-left: 105px;
 }
-
 .twitter img {
-  padding-right: 100px;
+  height: 20px;
+  width: 20px;
 }
