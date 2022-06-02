@@ -3,7 +3,7 @@
     box-sizing: border-box;
     overflow: hidden;
   }
-  
+
   body {
     background-color: #e5e5e5;
     border-bottom-left-radius: 0;
@@ -59,7 +59,7 @@
   .list-project {
     display: inline-flex;
     width: 226px;
-    height: 14px;
+    height: 16px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -70,7 +70,7 @@
     justify-content: space-between;
     padding-left: 0;
   }
-  
+
   .list-project .first-element-ul {
     width: 55px;
     height: 16px;
@@ -98,12 +98,31 @@
 
   .work-buttons ul {
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 24px;
     width: 240px;
     align-items: flex-start;
     padding: 0;
+  }
+
+  .see-project-btn a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #396df2;
+    width: 120px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #396df2;
+    padding-left: 8px;
   }
 
   .work-buttons ul li a {
@@ -133,23 +152,5 @@
     width: 89px;
   }
 
-  .see-project-btn a {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #396df2;
-    width: 120px;
-    height: 40px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #396df2;
-    padding-left: 8px;
-  }
+  
 }
