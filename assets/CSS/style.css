@@ -1,0 +1,157 @@
+@media only screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  html {
+    background: #fff;
+    overflow: hidden;
+  }
+
+  body {
+    position: absolute;
+    overflow: hidden;
+    max-width: 375px;
+    max-height: 812px;
+    margin: 0%;
+    padding: 0%;
+    border-bottom-left-radius: 70px;
+  }
+
+  .flex-conatiner {
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .logo {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-top: 58px;
+    background-color: #fff;
+  }
+
+  .logo h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #6070ff;
+  }
+
+  .logo h1 a {
+    text-decoration: none;
+    width: 76px;
+    height: 20px;
+  }
+
+  .logo h1 a :hover {
+    text-decoration: underline;
+  }
+
+  .wrapper {
+    height: 718px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .text {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text h2 {
+    display: flex;
+    width: 327px;
+    height: 150px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 100px;
+  }
+
+  .text p {
+    width: 327px;
+    height: 146px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-left: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+  .social-media {
+    margin-left: 24px;
+    margin-top: 0;
+  }
+
+  .social-media .icon-a a {
+    text-decoration: none;
+    color: #7f8cff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 117px;
+    height: 24px;
+  }
+
+  .social-media nav ul li {
+    max-width: 170.17px;
+    max-height: 20px;
+  }
+
+  .twitter {
+    width: 19.99px;
+    height: 19.96px;
+    margin-top: 12px;
+    margin-right: 19px;
+  }
+
+  .linkedin {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+
+  .meduim {
+    width: 20px;
+    height: 16px;
+    margin-right: 20px;
+  }
+
+  .github {
+    width: 17.99px;
+    height: 20px;
+    margin-right: 19px;
+  }
+
+  .anglelist {
+    width: 14.17px;
+    height: 20px;
+  }
+}
