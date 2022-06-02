@@ -3,6 +3,7 @@
     box-sizing: border-box;
     overflow: hidden;
   }
+  
   body {
     background-color: #e5e5e5;
     border-bottom-left-radius: 0;
@@ -17,6 +18,7 @@
     height: 100%;
     border-bottom-left-radius: 0;
   }
+
   .work-wrapper {
     overflow: hidden;
     display: flex;
@@ -68,11 +70,13 @@
     justify-content: space-between;
     padding-left: 0;
   }
+  
   .list-project .first-element-ul {
     width: 55px;
     height: 16px;
     color: #344563;
   }
+
   .work-paragraph {
     width: 295px;
     height: 76px;
@@ -86,10 +90,12 @@
     font-size: 15px;
     line-height: 24px;
   }
+
   .work-buttons {
     flex: none;
     order: 0;
   }
+
   .work-buttons ul {
     display: flex;
     flex-direction: row;
@@ -99,6 +105,7 @@
     align-items: flex-start;
     padding: 0;
   }
+
   .work-buttons ul li a {
     flex: none;
     text-decoration: none;
@@ -113,15 +120,19 @@
     line-height: 16px;
     letter-spacing: 0.03em;
   }
+
   .work-buttons .html {
     width: 53px;
   }
+
   .work-buttons .css {
     width: 45px;
   }
+
   .work-buttons .js {
     width: 89px;
   }
+
   .see-project-btn a {
     display: flex;
     align-items: center;
