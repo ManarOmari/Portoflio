@@ -98,7 +98,6 @@
 
   .work-buttons ul {
     display: flex;
-    align-items: center;
     height: 24px;
     width: 240px;
     align-items: flex-start;
@@ -151,6 +150,4 @@
   .work-buttons .js {
     width: 89px;
   }
-
-  
 }
