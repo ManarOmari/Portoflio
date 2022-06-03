@@ -61,7 +61,8 @@
     border-bottom-left-radius: 0;
   }
 
-  .wrapper .header-wrapper {
+  .header-wrapper,
+  .about-wrapper {
     width: 375px;
     display: flex;
     flex-direction: column;
@@ -205,7 +206,8 @@
     line-height: 44px;
   }
 
-  .list-project, .list-project-story {
+  .list-project,
+  .list-project-story {
     display: inline-flex;
     width: 226px;
     height: 16px;
@@ -333,15 +335,15 @@
     justify-content: center;
   }
 
-  .header-1{
+  .header-1 {
     height: 80px;
   }
-  
+
   .list-project-story {
-  margin-top: 40px;
+    margin-top: 40px;
   }
 
-  .snapshoot-potofolio2{
+  .snapshoot-potofolio2 {
     flex: none;
     width: 295px;
     height: 220px;
@@ -351,7 +353,7 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .story-snapshoot-potofolio2{
+  .story-snapshoot-potofolio2 {
     flex: none;
     width: 295px;
     height: 220px;
@@ -360,5 +362,38 @@
     background-size: 100%;
     border-radius: 8px;
     justify-content: center;
+  }
+  .about-wrapper {
+    background-color: #fff;
+    background-image: none;
+    border-top-right-radius: 74px;
+    border-bottom-left-radius: 0;
+  }
+  .about-me-list ul li {
+    list-style-type: none;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 24px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .about-me-list ul li a {
+    text-decoration: none;
+  }
+ .see-project-btn .get-resume-link {
+    width: 138px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
   }
 }
