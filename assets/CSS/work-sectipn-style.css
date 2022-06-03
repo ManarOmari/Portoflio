@@ -46,6 +46,17 @@
     justify-content: center;
   }
 
+  .snapshoot-potofolio-stories-1 {
+    flex: none;
+    width: 295px;
+    height: 220px;
+    background-image: url(/assets/images/Snapshoot-Portfolio1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
   .work-txt h1 {
     width: 295px;
     height: 36px;
