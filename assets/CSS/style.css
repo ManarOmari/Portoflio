@@ -150,6 +150,10 @@
     line-height: 16px;
     letter-spacing: 0.03em;
   }
+  
+  .about-me-list ul li a {
+    text-decoration: none;
+  }
 
   .social-media .icon-a a {
     text-decoration: none;
@@ -163,6 +167,23 @@
     height: 24px;
   }
 
+  .list-project li ,
+  .work-buttons ul li {
+  
+    list-style-type: none;
+  }
+
+  .about-me-list ul li {
+    list-style-type: none;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 24px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
   .social-media nav ul li {
     max-width: 170.17px;
     max-height: 20px;
@@ -281,10 +302,7 @@
     order: 0;
   }
 
-  .work-buttons ul li,
-  .list-project li {
-    list-style-type: none;
-  }
+
 
   .work-buttons ul {
     display: flex;
@@ -307,7 +325,6 @@
   }
 
   .story-wrapper {
-    height: 596px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -371,26 +388,12 @@
     border-bottom-left-radius: 0;
   }
 
-  .about-me-list ul li {
-    list-style-type: none;
-    height: 24px;
-    margin-left: 12px;
-    margin-top: 24px;
-    font-family: "poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .about-me-list ul li a {
-    text-decoration: none;
-  }
+  
 
   .see-project-btn .get-resume-link {
     width: 138px;
     height: 24px;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
