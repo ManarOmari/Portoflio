@@ -150,7 +150,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
   }
-  
+
   .about-me-list ul li a {
     text-decoration: none;
   }
@@ -167,12 +167,11 @@
     height: 24px;
   }
 
-  .list-project li ,
+  .list-project li,
   .work-buttons ul li {
-  
     list-style-type: none;
   }
-
+  
   .about-me-list ul li {
     list-style-type: none;
     height: 24px;
@@ -184,6 +183,7 @@
     font-size: 20px;
     line-height: 24px;
   }
+
   .social-media nav ul li {
     max-width: 170.17px;
     max-height: 20px;
@@ -302,8 +302,6 @@
     order: 0;
   }
 
-
-
   .work-buttons ul {
     display: flex;
     height: 24px;
@@ -387,8 +385,6 @@
     border-top-right-radius: 74px;
     border-bottom-left-radius: 0;
   }
-
-  
 
   .see-project-btn .get-resume-link {
     width: 138px;
