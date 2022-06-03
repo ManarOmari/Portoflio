@@ -1,27 +1,25 @@
 @media only screen and (max-width: 768px) {
-  * {
-    box-sizing: border-box;
-    overflow: hidden;
-  }
-
   html {
     background: #fff;
-    overflow: hidden;
   }
 
   body {
-    position: absolute;
-    overflow: hidden;
+    background-color: #e5e5e5;
+    border-bottom-left-radius: 0;
+    width: 375px;
     max-width: 375px;
-    max-height: 812px;
-    margin: 0%;
-    padding: 0%;
-    border-bottom-left-radius: 70px;
   }
 
-  .flex-conatiner {
+  .flex-conatiner,
+  header {
     overflow: hidden;
-    position: absolute;
+
+    background-color: #fff;
+    width: 375px;
+  }
+
+  header {
+    position: relative;
   }
 
   .logo {
@@ -55,16 +53,26 @@
   }
 
   .wrapper {
-    height: 718px;
+    width: 375px;
+    display: grid;
+    gap: 12px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    border-bottom-left-radius: 0;
+  }
+
+  .wrapper .header-wrapper {
+    width: 375px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    height: 718px;
+    margin-top: 0;
+    margin-left: 0;
     background-image: url(/assets/images/header.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
   }
 
   .text {
@@ -153,5 +161,144 @@
   .anglelist {
     width: 14.17px;
     height: 20px;
+  }
+
+  .work-wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    background-color: #fff;
+    height: 552px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 114px;
+    border-radius: 16px;
+    border-color: #dfe1e6;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .work-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .snapshoot-potofolio {
+    flex: none;
+    width: 295px;
+    height: 220px;
+    background-image: url(/assets/images/Snapshoot-Portfolio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
+  .work-txt h1 {
+    width: 295px;
+    height: 36px;
+    color: #172b4d;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .list-project {
+    display: inline-flex;
+    width: 226px;
+    height: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+    line-height: 16px;
+    justify-content: space-between;
+    overflow: auto;
+  }
+
+  .list-project .first-element-ul {
+    width: 55px;
+    height: 16px;
+    color: #344563;
+  }
+
+  .work-paragraph {
+    width: 295px;
+    height: 76px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .work-buttons {
+    flex: none;
+    order: 0;
+  }
+
+  .work-buttons ul {
+    display: flex;
+    height: 24px;
+    width: 240px;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .work-buttons ul li,
+  .list-project li {
+    list-style-type: none;
+  }
+  .see-project-btn a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #396df2;
+    width: 120px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #396df2;
+    padding-left: 8px;
+  }
+
+  .work-buttons ul li a {
+    flex: none;
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    color: #6070ff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .work-buttons .html {
+    width: 53px;
+  }
+
+  .work-buttons .css {
+    width: 45px;
+  }
+
+  .work-buttons .js {
+    width: 89px;
   }
 }
