@@ -205,7 +205,7 @@
     line-height: 44px;
   }
 
-  .list-project {
+  .list-project, .list-project-story {
     display: inline-flex;
     width: 226px;
     height: 16px;
@@ -217,9 +217,10 @@
     line-height: 16px;
     justify-content: space-between;
     overflow: auto;
+    list-style-type: none;
   }
 
-  .list-project .first-element-ul {
+  .first-element-ul {
     width: 55px;
     height: 16px;
     color: #344563;
@@ -251,10 +252,12 @@
     align-items: flex-start;
     padding: 0;
   }
+
   .work-buttons ul li,
   .list-project li {
     list-style-type: none;
   }
+
   .see-project-btn a {
     display: flex;
     align-items: center;
@@ -300,5 +303,62 @@
 
   .work-buttons .js {
     width: 89px;
+  }
+
+  .story-wrapper {
+    height: 596px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    background-color: #fff;
+    height: 552px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 114px;
+    border-radius: 16px;
+    border-color: #dfe1e6;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .story-snapshoot-potofolio {
+    flex: none;
+    width: 295px;
+    height: 220px;
+    background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
+  .header-1{
+    height: 80px;
+  }
+  
+  .list-project-story {
+  margin-top: 40px;
+  }
+
+  .snapshoot-potofolio2{
+    flex: none;
+    width: 295px;
+    height: 220px;
+    background-image: url(/assets/images/Snapshoot-Portfolio1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: center;
+  }
+  .story-snapshoot-potofolio2{
+    flex: none;
+    width: 295px;
+    height: 220px;
+    background-image: url(/assets/images/story2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: center;
   }
 }
