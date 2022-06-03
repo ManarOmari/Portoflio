@@ -171,7 +171,7 @@
   .work-buttons ul li {
     list-style-type: none;
   }
-  
+
   .about-me-list ul li {
     list-style-type: none;
     height: 24px;
@@ -389,7 +389,7 @@
   .see-project-btn .get-resume-link {
     width: 138px;
     height: 24px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
