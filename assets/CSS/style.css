@@ -99,7 +99,6 @@
     overflow: hidden;
     flex-direction: column;
     align-items: center;
-    
   }
 
   .text h2 {
@@ -431,12 +430,11 @@
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-   
   }
+
   .list-icon {
     background-image: url(/assets/images/Vector.png);
   }
-
 
   .list-item {
     font-family: "Poppins", sans-serif;
@@ -447,11 +445,13 @@
     list-style-type: none;
     display: contents;
   }
+
   .list-item li img {
     width: 48px;
     height: 48px;
     vertical-align: middle;
   }
+  
   .list {
     border-block-width: 1px;
     border-bottom-style: inset;
