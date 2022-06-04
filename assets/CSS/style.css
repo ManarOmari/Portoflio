@@ -97,9 +97,9 @@
 
   .text {
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .text h2 {
@@ -408,6 +408,8 @@
     border-top-right-radius: 74px;
     border-bottom-left-radius: 0;
     margin-top: 114px;
+    height: auto;
+    width: 375px;
   }
 
   .see-project-btn .get-resume-link {
@@ -425,15 +427,16 @@
   }
 
   .list-container {
-    display: flex;
-    flex-direction: column;
     list-style-type: none;
-    margin-left: 12px;
-    margin-right: 78px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+   
   }
+  .list-icon {
+    background-image: url(/assets/images/Vector.png);
+  }
+
 
   .list-item {
     font-family: "Poppins", sans-serif;
@@ -442,5 +445,15 @@
     font-size: 15px;
     line-height: 20px;
     list-style-type: none;
+    display: contents;
+  }
+  .list-item li img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+  }
+  .list {
+    border-block-width: 1px;
+    border-bottom-style: inset;
   }
 }
