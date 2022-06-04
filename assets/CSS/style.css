@@ -188,13 +188,23 @@
     line-height: 24px;
     color: #000;
   }
+
   .social-media ul {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-left: 0px;
+    margin-left: 0;
     list-style-type: none;
     padding: inherit;
+  }
+  
+  .list-item li {
+    flex: none;
+    width: 303px;
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-top: 12px;
   }
   .social-media ul li {
     max-width: 170.17px;
@@ -423,9 +433,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
   }
-  
+
   .list-item {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -433,13 +443,5 @@
     list-style-type: none;
   }
 
-  .list-item li {
-    flex: none;
-    width: 303px;
-    height: 66.72px;
-
-    background: #f7f7f9;
-    border-radius: 8px;
-    margin-top: 12px;
-  }
+  
 }
