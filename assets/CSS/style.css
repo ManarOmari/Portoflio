@@ -72,7 +72,7 @@
   }
 
   .wrapper {
-    width: 375px;
+    max-width: 375px;
     display: grid;
     gap: 12px;
     overflow: hidden;
@@ -153,6 +153,10 @@
 
   .about-me-list ul li a {
     text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .social-media .icon-a a {
@@ -182,9 +186,17 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: #000;
   }
-
-  .social-media nav ul li {
+  .social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 0px;
+    list-style-type: none;
+    padding: inherit;
+  }
+  .social-media ul li {
     max-width: 170.17px;
     max-height: 20px;
   }
@@ -192,7 +204,6 @@
   .twitter {
     width: 19.99px;
     height: 19.96px;
-    margin-top: 12px;
     margin-right: 19px;
   }
 
@@ -281,6 +292,7 @@
     width: 55px;
     height: 16px;
     color: #344563;
+    display: inline;
   }
 
   .work-paragraph {
@@ -328,7 +340,7 @@
     flex-direction: column;
     width: 327px;
     background-color: #fff;
-    height: 552px;
+    height: 596px;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 114px;
@@ -399,5 +411,35 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 12px;
+    margin-right: 78px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  .list-item {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    list-style-type: none;
+  }
+
+  .list-item li {
+    flex: none;
+    width: 303px;
+    height: 66.72px;
+
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-top: 12px;
   }
 }
