@@ -474,9 +474,6 @@
     width: 801px;
     height: 56px;
     padding-left: 55px;
-
-    /* Header / 2 */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -500,6 +497,28 @@
     font-size: 20px;
     line-height: 28px;
     color: #ebebff;
+  }
+
+  .form-elements {
+    list-style: none;
+    border-radius: 8px;
+    
+  }
+
+  .form-elements li{
+    
+    padding: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+    
+  }
+  .input {
+    border-radius: 8px;
+    height: 30px;
+    width: 270px;
   }
 
 }

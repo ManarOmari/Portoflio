@@ -276,11 +276,21 @@
     <section class="form-section" >
       <h1> Contact me</h1>
       <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-      <form method="post">
-      <input type="text" name="user-name" placeholder="Yasamin">
-      <input type="email" name="email" placeholder="natajayanj14@gmail.com">
-      <textarea name="msg" placeholder="Write your message here"></textarea>
-      <button type="button">Get It Touch</button>
+      <form method="post" action="https://formspree.io/html/">
+        <ul class="form-elements">
+          <li>
+            <input type="text" name="user-name" value="Yasamin" class="input">
+          </li>
+          <li>
+            <input type="email" name="email" value="natajayanj14@gmail.com" class="input">
+          </li>
+          <li>
+            <textarea name="msg" placeholder="Write your message here"></textarea>
+          </li>
+          <li>
+            <button type="button">Get It Touch</button>
+          </li>
+        </ul>
       </form>
     </section>
 
