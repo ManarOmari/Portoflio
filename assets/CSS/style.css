@@ -179,6 +179,15 @@
     height: 24px;
   }
 
+  .form-elements li {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
   .list-project li,
   .work-buttons ul li {
     list-style-type: none;
@@ -455,5 +464,80 @@
   .list {
     border-block-width: 1px;
     border-bottom-style: inset;
+  }
+
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 779px;
+    background-color: #6070ff;
+    background-image: url(/assets/images/contact.png);
+    background-repeat: no-repeat;
+    background-size: 64%;
+    background-position: right;
+    border-top-left-radius: 73px;
+  }
+
+  .form-section h1 {
+    padding-top: 39px;
+    width: 801px;
+    height: 56px;
+    padding-left: 55px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .form-section p {
+    text-align: center;
+    padding-left: 12px;
+    width: 327px;
+    height: 102px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+  }
+
+  .form-elements {
+    list-style: none;
+    border-radius: 8px;
+  }
+
+  .input {
+    border-radius: 8px;
+    height: 30px;
+    width: 270px;
+  }
+
+  .textArea {
+    height: 170px;
+    width: 270px;
+  }
+
+  .btn {
+    align-items: center;
+    padding: 12px 16px;
+    width: 140px;
+    height: 48px;
+    left: 24px;
+    top: 5317px;
+    background: #fff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
   }
 }
