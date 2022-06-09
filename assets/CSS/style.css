@@ -510,7 +510,6 @@ header {
   margin-left: 460px;
 }
 
-
 .about-wrapper .text p {
   width: auto;
   font-family: "poppins", sans-serif;
@@ -735,7 +734,7 @@ header {
   .logo h2 a :hover {
     text-decoration: underline;
   }
-  
+
   .hamburger {
     display: flex;
   }
