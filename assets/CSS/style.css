@@ -496,6 +496,21 @@ header {
   margin-left: 24px;
 }
 
+.form-section p {
+  text-align: center;
+  padding-left: 12px;
+  width: 569px;
+  height: 102px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-left: 460px;
+}
+
+
 .about-wrapper .text p {
   width: auto;
   font-family: "poppins", sans-serif;
@@ -553,6 +568,12 @@ header {
   margin-left: 0;
 }
 
+.list-title img {
+  width: 12px;
+  height: 6px;
+  margin-left: 465px;
+}
+
 .list-item li img {
   width: 48px;
   height: 48px;
@@ -566,12 +587,6 @@ header {
 
 .list .list-title h3 {
   display: inline-block;
-}
-
-.list-title img {
-  width: 12px;
-  height: 6px;
-  margin-left: 465px;
 }
 
 .list-title .vector {
@@ -613,20 +628,6 @@ header {
   text-align: center;
   color: #fff;
   margin-left: 539px;
-}
-
-.form-section p {
-  text-align: center;
-  padding-left: 12px;
-  width: 569px;
-  height: 102px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
-  margin-left: 460px;
 }
 
 .form-elements {
