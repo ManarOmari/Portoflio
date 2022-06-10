@@ -81,6 +81,10 @@
     height: 2rem;
   }
 
+  .see-project-btn a :hover {
+    background-color: #396df2;
+  }
+
   .logo h2 a :hover {
     text-decoration: underline;
   }
@@ -658,10 +662,6 @@
 
   .to-hide {
     display: block;
-  }
-
-  .see-project-btn a :hover {
-    background-color: #396df2;
   }
 
   .see-project-btn a:disabled {
