@@ -273,11 +273,8 @@ header {
 
 .snapshoot-potofolio {
   flex: none;
-  width: 295px;
-  height: 220px;
-  background-image: url(/assets/images/Snapshoot-Portfolio.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  width: 29.5rem;
+  height: 22.0rem;
   border-radius: 8px;
   justify-content: center;
 }
@@ -374,9 +371,9 @@ header {
   flex: none;
   width: 295px;
   height: 220px;
-  background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
+ /* background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;*/
   border-radius: 8px;
   justify-content: center;
 }
@@ -393,9 +390,9 @@ header {
   flex: none;
   width: 295px;
   height: 220px;
-  background-image: url(/assets/images/Snapshoot-Portfolio1.png);
+ /* background-image: url(/assets/images/Snapshoot-Portfolio1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;*/
   border-radius: 8px;
   justify-content: center;
 }
@@ -404,9 +401,9 @@ header {
   flex: none;
   width: 295px;
   height: 220px;
-  background-image: url(/assets/images/story2.png);
+ /* background-image: url(/assets/images/story2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;*/
   border-radius: 8px;
   justify-content: center;
 }

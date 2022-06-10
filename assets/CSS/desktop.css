@@ -313,11 +313,8 @@
 
   .snapshoot-potofolio {
     flex: none;
-    width: 54.4rem;
-    height: 44.8rem;
-    background-image: url(/assets/images/card1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 50%;
+    height: 50%;
     border-radius: 0.8rem;
     margin-top: 2.4rem;
     margin-left: 2.4rem;
@@ -382,10 +379,11 @@
 
   .work-buttons ul {
     display: flex;
-    height: 2.4rem;
-    width: 24rem;
+    height: 5.4rem;
+    width: 30rem;
     align-items: flex-start;
     padding: 0;
+    margin-top: 3rem;
   }
 
   .work-buttons .html {
@@ -426,7 +424,6 @@
     width: 115.6rem;
     background-color: #fff;
     height: 49.6rem;
-    margin-left: 14.2rem;
     margin-right: 2.4rem;
     margin-top: 11.4rem;
     border-radius: 1.6rem;
@@ -439,9 +436,9 @@
     flex: none;
     width: 54.4rem;
     height: 44.8rem;
-    background-image: url(/assets/images/SnapshootPortfolio2.png);
+   /* background-image: url(/assets/images/SnapshootPortfolio2.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;*/
     border-radius: 8px;
     margin-left: 3.4rem;
   }
@@ -456,22 +453,25 @@
 
   .snapshoot-potofolio2 {
     flex: none;
-    width: 54.4rem;
-    height: 44.8rem;
-    background-image: url(/assets/images/Snapshoot-Portfolio.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 50%;
+    height: 100%;
+    margin-right: 2rem;
     border-radius: 8px;
     justify-content: center;
+  }
+
+  .snapshoot-potofolio2 img {
+    width: 100%;
+    height: 100%;
   }
 
   .story-snapshoot-potofolio2 {
     flex: none;
     width: 54.4rem;
     height: 44.8rem;
-    background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
+   /* background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     border-radius: 8px;
     justify-content: center;
   }
