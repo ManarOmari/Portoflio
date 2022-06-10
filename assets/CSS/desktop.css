@@ -479,7 +479,6 @@
   .about-wrapper {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     background-color: #fff;
     background-image: none;
     border-top-right-radius: 74px;
