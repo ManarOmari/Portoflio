@@ -669,4 +669,13 @@
   .to-hide {
     display: block;
   }
+
+  .see-project-btn a :hover{
+      background-color:#396df2;
+  }
+
+  .see-project-btn a:disabled{
+    background-color:#fff;
+    color: #344563;
+}
 }
