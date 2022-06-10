@@ -678,4 +678,13 @@
     background-color:#fff;
     color: #344563;
 }
+
+.btn :hover {
+    background-color:#396df2;
+}
+
+.btn :disabled {
+    background-color:#fff;
+    color: #344563;
+}
 }
