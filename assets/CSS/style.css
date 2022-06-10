@@ -1,13 +1,14 @@
 
   html {
    background: #fff;
+   font-size: 62.5%;
   }
 
   body {
    background-color: #e5e5e5;
    border-bottom-left-radius: 0;
-   width: 375px;
-   max-width: 375px;
+   font-size: 1.6rem;
+   max-width: 37.5rem;
   }
 
   .flex-conatiner,
@@ -116,18 +117,18 @@
   }
 
   .text p {
-   width: 327px;
-   height: 146px;
+   max-width: 32.7rem;
+   max-height: 14.6rem;
    font-family: "poppins", sans-serif;
    font-style: normal;
    font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
+   font-size: 1.6rem;
+   line-height: 2.4rem;
    color: #344563;
-   margin-left: 24px;
+   margin-left: 2.4rem;
    margin-top: 0;
    margin-bottom: 0;
-   overflow: hidden;
+   overflow: auto;
   }
 
   .social-media {

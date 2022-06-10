@@ -7,6 +7,7 @@
       body {
         background-color: #e5e5e5;
         border-bottom-left-radius: 0;
+        font-size: 1.6rem;
         min-width: 144rem;
       }
       
@@ -134,9 +135,11 @@
       .text {
         overflow: hidden;
         display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: column;
-        margin-top: 160px;
-        margin-left: 260px;
+        margin-top: 16rem;
+        margin-left: 26rem;
       }
       
       .text h2 {
