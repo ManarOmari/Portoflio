@@ -38,42 +38,43 @@
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-        </div>
-        <div class="social-media">
-          <div class="icon-a">
-            <h5><a href="#">Let's connect</a></h5>
+          <div class="social-media">
+            <div class="icon-a">
+              <h5><a href="#">Let's connect</a></h5>
+            </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="assets/images/twitter.svg" alt="twitter image" class="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="assets/images/linkedin.svg" alt="linked in  image" class="linkedin" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="assets/images/m.svg" alt="meduim in  image" class="meduim" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="assets/images/github.svg" alt="github in  image" class="github" />
+                </a>
+  
+              </li>
+              <li>
+                <a href="#">
+                  <img src="assets/images/angleList.svg" alt="angle list in  image" class="anglelist" />
+                </a>
+              </li>
+            </ul>
+  
           </div>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="assets/images/twitter.svg" alt="twitter image" class="twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/images/linkedin.svg" alt="linked in  image" class="linkedin" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/images/m.svg" alt="meduim in  image" class="meduim" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/images/github.svg" alt="github in  image" class="github" />
-              </a>
-
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/images/angleList.svg" alt="angle list in  image" class="anglelist" />
-              </a>
-            </li>
-          </ul>
-
         </div>
-      </div>
+        </div>
+        
     </div>
   </header>
   <div class="wrapper">
@@ -318,48 +319,47 @@
           you like what you see and have a project you need coded, don’t
           hestiate to contact me.
         </p>
-      </div>
-      <div class="social-media">
-        <div class="icon-a">
-          <h5><a href="#">Let's connect</a></h5>
+        <div class="social-media">
+          <div class="icon-a">
+            <h5><a href="#">Let's connect</a></h5>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="assets/images/twitter.svg" alt="twitter image" class="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/linkedin.svg" alt="linked in  image" class="linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/m.svg" alt="meduim in  image" class="meduim" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/github.svg" alt="github in  image" class="github" />
+              </a>
+  
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/angleList.svg" alt="angle list in  image" class="anglelist" />
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="assets/images/twitter.svg" alt="twitter image" class="twitter" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="assets/images/linkedin.svg" alt="linked in  image" class="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="assets/images/m.svg" alt="meduim in  image" class="meduim" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="assets/images/github.svg" alt="github in  image" class="github" />
-            </a>
-
-          </li>
-          <li>
-            <a href="#">
-              <img src="assets/images/angleList.svg" alt="angle list in  image" class="anglelist" />
-            </a>
-          </li>
-        </ul>
+        <div class="see-project-btn">
+          <a href="#" class="get-resume-link">Get My resume</a>
+        </div>
       </div>
-
-
+      <div class="list-container">
       <ul class="list-container">
         <li class="list">
           <div class="list-title">
-            <div class="see-project-btn">
-              <a href="#" class="get-resume-link">Get My resume</a>
-            </div>
             <h3>Language</h3>
           </div>
              <ul class="list-item">
@@ -388,19 +388,22 @@
 
         </li>
       </ul>
+      </div>
+     </section>
+
       <section class="form-section" >
         <h1> Contact me</h1>
         <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
         <form method="post" action="https://formspree.io/f/xnqwrjyv">
           <ul class="form-elements">
             <li>
-              <input type="text" name="user-name"  class="input" placeholder="Name">
+              <input type="text" name="user-name"  class="input" placeholder="Name" required maxlength="30">
             </li>
             <li>
-              <input type="email" name="email"  class="input" placeholder="Email">
+              <input type="email" name="email"  class="input" placeholder="Email" required  pattern=".+@globex\.com">
             </li>
             <li>
-              <textarea name="msg" placeholder="Write your message here" class="textArea"></textarea>
+              <textarea name="msg" placeholder="Write your message here" class="textArea" required maxlength="500"></textarea>
             </li>
             <li>
               <button type="button" class="btn">Get It Touch</button>
@@ -408,7 +411,7 @@
           </ul>
         </form>
       </section>
-    </section>
+    
     
     
 
