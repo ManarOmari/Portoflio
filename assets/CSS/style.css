@@ -514,7 +514,7 @@
    border-radius: 8px;
   }
 
-  .input {
+.input {
    border-radius: 8px;
    height: 30px;
    width: 270px;
@@ -542,3 +542,6 @@
    line-height: 24px;
   }
 
+.to-hide {
+  display: none;
+}

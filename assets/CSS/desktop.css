@@ -316,6 +316,10 @@
       }
       
       .snapshoot-potofolio {
+        display: none;
+      }
+
+      .dt-snap-port1{
         flex: none;
         width: 544px;
         height: 448px;
@@ -665,5 +669,13 @@
         font-weight: 500;
         font-size: 17px;
         line-height: 24px;
-      }
+    }
+
+    .to-display {
+        display: none;
+    }
+    
+    .to-hide {
+        display: block;
+    }
 }
