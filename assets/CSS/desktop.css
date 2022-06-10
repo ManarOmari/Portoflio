@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 @media screen and (min-width: 768px) {
   html {
     background: #fff;
@@ -435,9 +436,6 @@
     flex: none;
     width: 54.4rem;
     height: 44.8rem;
-    /* background-image: url(/assets/images/SnapshootPortfolio2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;*/
     border-radius: 8px;
     margin-left: 3.4rem;
   }
@@ -468,15 +466,12 @@
     flex: none;
     width: 54.4rem;
     height: 44.8rem;
-    /* background-image: url(/assets/images/Snapshoot-portofolio-stories.png);
-    background-repeat: no-repeat;
-    background-size: cover;*/
     border-radius: 8px;
     justify-content: center;
   }
 
   .about-wrapper {
-     display: flex;
+    display: flex;
     flex-direction: row;
     background-color: #fff;
     background-image: none;
@@ -519,7 +514,6 @@
   }
 
   .about-wrapper .text .social-media {
-    /* margin-left: 12vm;*/
     margin-top: 0;
     justify-content: flex-start;
     margin-left: 3rem;
@@ -606,7 +600,6 @@
     border-top-left-radius: 73px;
     text-align: center;
     margin: 0;
-    
   }
 
   .form-section h1 {
@@ -619,12 +612,10 @@
     font-weight: 700;
     font-size: 4rem;
     line-height: 5.2rem;
-    /* display: flex; */
     align-items: center;
     text-align: center;
     color: #fff;
     margin-left: 45.9rem;
-   
   }
 
   .form-elements {
@@ -636,7 +627,6 @@
     border-radius: 8px;
     height: 3rem;
     width: 27rem;
-    
   }
 
   .textArea {
@@ -670,21 +660,21 @@
     display: block;
   }
 
-  .see-project-btn a :hover{
-      background-color:#396df2;
+  .see-project-btn a :hover {
+    background-color: #396df2;
   }
 
-  .see-project-btn a:disabled{
-    background-color:#fff;
+  .see-project-btn a:disabled {
+    background-color: #fff;
     color: #344563;
-}
+  }
 
-.btn :hover {
-    background-color:#396df2;
-}
+  .btn:hover {
+    background-color: #396df2;
+  }
 
-.btn :disabled {
-    background-color:#fff;
+  .btn:disabled {
+    background-color: #fff;
     color: #344563;
-}
+  }
 }
