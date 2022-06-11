@@ -718,6 +718,8 @@
     cursor: pointer;
     outline-color: #6070ff;
     border: none;
+    animation-name: example;
+    animation-duration: 4s;
   }
 
   .btn:disabled {
@@ -740,5 +742,12 @@
     color: #344563;
     opacity: 0.6;
     cursor: not-allowed;
+  }
+
+  @keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: rgb(44, 36, 110);}
+    50%  {background-color: rgb(88, 88, 173);}
+    100% {background-color: green;}
   }
 }
