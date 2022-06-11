@@ -11,6 +11,10 @@
     border-bottom-left-radius: 0;
     font-size: 1.6rem;
     max-width: 144rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
   }
 
   .flex-conatiner,
@@ -125,12 +129,13 @@
     flex-direction: column;
     height: 91.6rem;
     margin-top: 0;
-    margin-left: 0;
+    margin-left: 12.3rem;
     background-image: url(/assets/images/header-desktop.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #fff;
     border-bottom-left-radius: 7rem;
+   
   }
 
   .text {
@@ -307,12 +312,17 @@
     gap: 1.2rem;
     border: 1px solid #dfe1e6;
     border-radius: 2.4rem;
-    margin-left: 2.4rem;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 14.2rem;
   }
 
   .work-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    
   }
 
   .snapshoot-potofolio {
@@ -433,6 +443,9 @@
     border-radius: 1.6rem;
     border-color: #dfe1e6;
     padding: 1.6rem;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 14.2rem;
     gap: 1.2rem;
   }
 
@@ -484,6 +497,7 @@
     margin-top: 11.4rem;
     width: 144rem;
     height: auto;
+    margin-left: 0;
   }
 
   .about-wrapper .text {
