@@ -135,7 +135,6 @@
     background-size: 100%;
     background-color: #fff;
     border-bottom-left-radius: 7rem;
-   
   }
 
   .text {
@@ -173,7 +172,6 @@
     font-size: 2rem;
     line-height: 2.4rem;
     color: #344563;
-    margin-left: 2.4rem;
     margin-top: 0;
     margin-bottom: 0;
     overflow: hidden;
@@ -330,7 +328,6 @@
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    
   }
 
   .snapshoot-potofolio {
@@ -530,8 +527,8 @@
 
   .about-wrapper .text h2{
     justify-content: flex-start;
-
   }
+
   .about-wrapper .text p {
     width: auto;
     font-family: "poppins", sans-serif;
