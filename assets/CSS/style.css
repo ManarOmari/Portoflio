@@ -536,3 +536,64 @@ header {
 .to-diplay {
   display: block;
 }
+
+.see-project-btn a:disabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.see-project-btn a:hover {
+  background-color: #396df2; 
+  color: #fff;
+  cursor:pointer;
+  outline-color: #6070ff;
+  border: none;
+}
+
+.see-project-btn a:enabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 1;
+  cursor: pointer;
+  border: 1px solid #344563;
+}
+
+.btn:hover {
+  background-color: #396df2; 
+  color: #fff;
+  cursor:pointer;
+  outline-color: #6070ff;
+  border: none;
+}
+
+.btn:disabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.get-resume-link a:enabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 1;
+  cursor: pointer;
+  border: 1px solid #344563;
+}
+
+.get-resume-link a:disabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.get-resume-link a:enabled {
+  background-color: #fff;
+  color: #344563;
+  opacity: 1;
+  cursor: pointer;
+  border: 1px solid #344563;
+}
