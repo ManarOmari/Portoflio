@@ -10,8 +10,10 @@
 - Technologies used
 
 ## Live Demo (if available)
-
+github repo link 
 https://github.com/ManarOmari/Portoflio/tree/main
+online version link 
+https://manaromari.github.io/Portoflio/
 
 
 ## Getting Started
