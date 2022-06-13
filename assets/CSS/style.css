@@ -88,7 +88,7 @@ header {
   height: 71.8rem;
   margin-top: 0;
   margin-left: 0;
-  background-image: url('assets/images/header.png');
+  background-image: url("assets/images/header.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
