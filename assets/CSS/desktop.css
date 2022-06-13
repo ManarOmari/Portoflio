@@ -746,12 +746,15 @@
     0% {
       background-color: blue;
     }
+
     25% {
       background-color: rgb(44, 36, 110);
     }
+
     50% {
       background-color: rgb(88, 88, 173);
     }
+
     100% {
       background-color: green;
     }
