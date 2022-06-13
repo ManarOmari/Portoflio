@@ -567,10 +567,8 @@
     margin-top: 8rem;
   }
 
-  .list-icon {
-    background-image: url("../images/Vector.png");
-  }
-
+  .list-icon { background-image: url("../images/Vector.png"); }
+ 
   .list-item {
     font-family: "Poppins", sans-serif;
     font-style: normal;
