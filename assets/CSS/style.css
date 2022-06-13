@@ -88,7 +88,7 @@ header {
   height: 71.8rem;
   margin-top: 0;
   margin-left: 0;
-  background-image: url(/assets/images/header.png);
+  background-image: url(assets/images/header.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
@@ -430,7 +430,7 @@ header {
 }
 
 .list-icon {
-  background-image: url(/assets/images/Vector.png);
+  background-image: url(assets/images/Vector.png);
 }
 
 .list-item {
@@ -460,7 +460,7 @@ header {
   width: 37.5rem;
   height: 77.9rem;
   background-color: #6070ff;
-  background-image: url(/assets/images/contact.png);
+  background-image: url(assets/images/contact.png);
   background-repeat: no-repeat;
   background-size: 64%;
   background-position: right;
