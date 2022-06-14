@@ -1,0 +1,8 @@
+Page titles - no issues found"
+Image text alternatives** (<img alt="alt text">)
+Text headings
+Color contrast
+Resize
+Interaction
+Moving content
+Multimedia
