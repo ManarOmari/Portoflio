@@ -1,8 +1,9 @@
 Page titles - no issues found"
 Image text alternatives** (<img alt="alt text">)
 Text headings
-Color contrast
+Color contrast -    https://github.com/ManarOmari/Portoflio/blob/ed18261c6939b5e3a0c89d9fdc3886b43b1544d5/index.html#L313
 Resize
 Interaction
 Moving content
 Multimedia
+
