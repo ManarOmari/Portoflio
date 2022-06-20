@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="assets/CSS/style.css" rel="stylesheet" />
-  <link href="assets/CSS/desktop.css" rel="stylesheet" />
+ 
+  <script src="script.js"></script>
+
   <title>Portfolio</title>
 </head>
 <body>
@@ -16,7 +18,15 @@
         <h2>
           <a href="#">My Logo</a>
         </h2>
-        <img src="assets/images/Icon-Menu.jpg" alt="Icon menu" class="to-display"/>
+        <img src="assets/images/Icon-Menu.jpg" alt="Icon menu" class="to-display" onclick="openNav()"/>
+        <div class="list-nav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+              <li> <a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
         <ul class="to-hide">
           <li>
             <a href="#">Portofolio</a>
@@ -29,6 +39,7 @@
           </li>
         </ul>
       </nav>
+  
       <div class="header-wrapper">
         <div class="text">
           <h2>I’m Mariane <br />Glad to see you!</h2>
