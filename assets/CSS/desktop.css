@@ -1199,17 +1199,35 @@ header {
     border-bottom-left-radius: 0;
     margin-top: 11.4rem;
     height: auto;
-    width: 37.5rem;
+    width: 100.7vw;
   }
 
+  .about-wrapper .text{
+    align-items: flex-start
+  }
+  .about-wrapper .text h2{
+    margin-top: 0px;
+  }
+  
+
+  .about-wrapper .text p{
+    align-items: flex-start;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2.4vw;
+    color: #344563;
+    
+  }
   .see-project-btn .get-resume-link {
-    width: 13.8rem;
-    height: 2.4rem;
+    width: 28.8vw;
+    height: 6.4vw;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.7rem;
-    line-height: 2.4rem;
+    font-size: 2.7vw;
+    line-height: 2.4vw;
     display: flex;
     align-items: center;
     text-align: center;
@@ -1218,9 +1236,10 @@ header {
 
   .list-container {
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 4vw;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    margin-top: 2vw;
   }
 
   .list-icon {
@@ -1251,31 +1270,26 @@ header {
   .form-section {
     display: flex;
     flex-direction: column;
-    height: 77.9rem;
     background-color: #6070ff;
     background-image: url("../images/contact.png");
     background-repeat: no-repeat;
-    background-size: 64%;
-    background-position: right;
+    background-size: 100%;
     border-top-left-radius: 73px;
   }
 
   .form-section h1 {
-    padding-top: 3.9rem;
-    height: 5.6rem;
-    padding-left: 5.5rem;
+   display: contents;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4rem;
-    line-height: 5.2rem;
-    display: flex;
+    font-size: 4vw;
     align-items: center;
     text-align: center;
     color: #fff;
   }
 
   .form-section p {
+    display: contents;
     text-align: center;
     padding-left: 1.2rem;
     width: 32.7rem;
@@ -1382,7 +1396,7 @@ header {
     cursor: not-allowed;
   }
 
-  .class1{
-    margin-top: -59vw
+  .logo .list-nav .nav-item .nav-link{
+    color: #fff;
   }
 }
