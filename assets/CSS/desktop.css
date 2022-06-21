@@ -1110,6 +1110,7 @@ header {
     margin-top: 4rem;
     margin-left: 0;
   }
+
   .work-paragraph {
     width: 39.5vw;
     height: 7.6rem;
@@ -1208,15 +1209,15 @@ header {
     width: 100.7vw;
   }
 
-  .about-wrapper .text{
+  .about-wrapper .text {
     align-items: flex-start
   }
-  .about-wrapper .text h2{
+
+  .about-wrapper .text h2 {
     margin-top: 0px;
   }
-  
 
-  .about-wrapper .text p{
+  .about-wrapper .text p {
     align-items: flex-start;
     font-family: "poppins", sans-serif;
     font-style: normal;
@@ -1226,6 +1227,7 @@ header {
     color: #344563;
     
   }
+
   .see-project-btn .get-resume-link {
     width: 28.8vw;
     height: 6.4vw;
