@@ -42,6 +42,11 @@ header {
   padding: 0 24px;
 }
 
+.logo .list-nav {
+  list-style: none;
+  display: flex;
+}
+
 .see-project-btn a {
   display: flex;
   align-items: center;
@@ -842,6 +847,9 @@ header {
     justify-content: flex-start;
     margin: 0;
     gap: 0;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(16px);
+    
   }
 
   .hamburger {
