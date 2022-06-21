@@ -1210,11 +1210,11 @@ header {
   }
 
   .about-wrapper .text {
-    align-items: flex-start
+    align-items: flex-start;
   }
 
   .about-wrapper .text h2 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .about-wrapper .text p {
@@ -1225,7 +1225,6 @@ header {
     font-size: 1.8vw;
     line-height: 2.4vw;
     color: #344563;
-    
   }
 
   .see-project-btn .get-resume-link {
@@ -1286,7 +1285,7 @@ header {
   }
 
   .form-section h1 {
-   display: contents;
+    display: contents;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1343,14 +1342,6 @@ header {
     line-height: 2.4rem;
   }
 
-  .to-hide {
-    display: none;
-  }
-
-  .to-diplay {
-    display: block;
-  }
-
   .see-project-btn a:disabled {
     background-color: #fff;
     color: #344563;
@@ -1404,7 +1395,7 @@ header {
     cursor: not-allowed;
   }
 
-  .logo .list-nav .nav-item .nav-link{
+  .logo .list-nav .nav-item .nav-link {
     color: #fff;
   }
 }
