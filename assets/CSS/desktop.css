@@ -81,15 +81,6 @@ header {
   background-color: #396df2;
 }
 
-.list-nav {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  gap: 60px;
-}
-
 .logo .list-nav .nav-item .nav-link {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -111,16 +102,6 @@ header {
 .hamburger {
   display: none;
   cursor: pointer;
-}
-
-.bar {
-  display: block;
-  height: 3px;
-  width: 25px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #000;
 }
 
 .wrapper {
@@ -819,14 +800,21 @@ header {
   }
 
   .list-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
     position: fixed;
     left: -120%;
     top: 70px;
-    gap: 0;
-    flex-direction: column;
     background-color: #6070ff;
-    text-align: center;
     transition: 0.3s;
+    width: 100%;
   }
 
   .nav-brand {
@@ -841,13 +829,27 @@ header {
 
   .list-nav.active {
     left: 0;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
     background-color: #6070ff;
     width: 100%;
+    text-align: left;
   }
 
   .hamburger {
     display: block;
     cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #6070ff;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -856,10 +858,12 @@ header {
 
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
   }
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
   }
 
   .see-project-btn a {
