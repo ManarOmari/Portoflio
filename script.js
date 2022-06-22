@@ -93,6 +93,7 @@ seeProject.addEventListener("click", () => {
   modal.appendChild(p);
   modal_container.appendChild(modal);
   document.body.appendChild(modal_container);
+  
   // add technologies
   let technolgiy = document.createElement("ul");
   technolgiy.className = "work-buttons-js ";
@@ -101,6 +102,7 @@ seeProject.addEventListener("click", () => {
     li = document.createElement("li");
     li.innerHTML = projectList.project1.technologies[i];
     // add style
+    // li.classList.add('work-buttons');
     technolgiy.appendChild(li);
   }
   modal.appendChild(technolgiy);
