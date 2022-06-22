@@ -93,7 +93,6 @@ seeProject.addEventListener("click", () => {
   modal.appendChild(p);
   modal_container.appendChild(modal);
   document.body.appendChild(modal_container);
-  
   // add technologies
   let technolgiy = document.createElement("ul");
   technolgiy.className = "work-buttons-js ";
