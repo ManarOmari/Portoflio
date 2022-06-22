@@ -1093,6 +1093,14 @@ header {
     border-radius: 8px;
     justify-content: center;
   }
+  .snapshoot-potofolio-js {
+    flex: none;
+    width: 90%;
+    height: 15rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
 
   .work-txt h2 {
     color: #172b4d;
@@ -1100,6 +1108,19 @@ header {
     font-weight: 700;
     font-size: 3.2vw;
     line-height: 5.4vw;
+  }
+
+  .work-txt-js {
+    /* display: inline-block;*/
+    width: 25.9rem;
+    height: 3.6rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    color: #172b4d;
+    margin-left: 2rem;
   }
 
   .list-project,
@@ -1116,13 +1137,34 @@ header {
     list-style-type: none;
   }
 
+  .list-project-js {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #7a869a;
+    list-style-type: disc;
+    display: inline-flex;
+    padding-right: 2rem;
+  }
+
   .first-element-ul {
     width: 5.5rem;
     height: 1.6rem;
     color: #344563;
     display: inline;
   }
+  .first-element-ul-js {
+    margin-left: 2rem;
+    color: #344563;
+    display: inline;
+    font-size: 1.4rem;
+    display: inline;
+  }
 
+  .ul-li-js {
+    padding-right: 6rem;
+  }
   .work-txt {
     margin-top: 4rem;
     margin-left: 0;
@@ -1142,12 +1184,36 @@ header {
     line-height: 2.4vw;
   }
 
+  .work-paragraph-js {
+    width: 78.5vw;
+    height: 30.6vh;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9vw;
+    line-height: 2.9vw;
+    margin-left: 2rem;
+}
+
   .work-buttons {
     flex: none;
     order: 0;
   }
 
   .work-buttons ul {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 0;
+    justify-content: space-evenly;
+    margin-left: -3vw;
+  }
+
+  .work-buttons-js {
     display: flex;
     align-items: flex-start;
     padding: 0;
@@ -1166,6 +1232,33 @@ header {
 
   .work-buttons .js {
     width: 8.9rem;
+  }
+
+  .modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    gap: 12px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+    background-color: #dfe1e6;
+  }
+
+  .modal {
+    width: 375px;
+    max-width: 100%;
+    background-color: #f7f7f9;
+    height: 500px;
   }
 
   .story-wrapper {
@@ -1205,7 +1298,6 @@ header {
     height: 22rem;
     border-radius: 8px;
     justify-content: center;
-    display: block;
   }
 
   .story-snapshoot-potofolio2 {
@@ -1415,5 +1507,12 @@ header {
   .logo .list-nav .nav-item .nav-link {
     color: #fff;
     font-size: 9vw;
+    opacity: 0;
+  }
+
+  .logo .list-nav .nav-item .nav-link.active {
+    color: #fff;
+    font-size: 9vw;
+    opacity: 1;
   }
 }
