@@ -102,7 +102,6 @@ seeProject.addEventListener("click", () => {
     li = document.createElement("li");
     li.innerHTML = projectList.project1.technologies[i];
     // add style
-    // li.classList.add('work-buttons');
     technolgiy.appendChild(li);
   }
   modal.appendChild(technolgiy);
