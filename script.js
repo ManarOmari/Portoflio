@@ -54,8 +54,6 @@ seeProject.addEventListener("click", () => {
   // add the second line
   let subtitle = document.createElement("h6");
   subtitle.innerHTML = projectList.project1.description[0];
-
-  // add style to subtitle
   subtitle.classList.add("first-element-ul-js");
   modal.appendChild(subtitle);
   modal_container.appendChild(modal);
@@ -68,8 +66,6 @@ seeProject.addEventListener("click", () => {
   li.classList.add("ul-li-js");
   let li1 = document.createElement("li");
   li1.innerHTML = projectList.project1.description[2];
-
-  // add style ul 
   ulist.classList.add("list-project-js");
   ulist.appendChild(li);
   ulist.appendChild(li1);
@@ -100,6 +96,7 @@ seeProject.addEventListener("click", () => {
   // work buttons
   for (let i = 0; i < 3; i++) {
     li = document.createElement("li");
+    li.classList.add('list-btn-js');
     li.innerHTML = projectList.project1.technologies[i];
     // add style
     // li.classList.add('work-buttons');
