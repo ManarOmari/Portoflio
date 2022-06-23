@@ -13,12 +13,12 @@ document.querySelectorAll('.list-nav').forEach((n) =>
   })
 );
 
-const modal_container = document.querySelector('.modal-container');
+const modalContainer = document.querySelector('.modal-container');
 const closeBtn = document.querySelector('.closeBtn');
 const seeProject = document.querySelector('.seeProject');
 const modal = document.querySelector('.modal');
 // array to store element
-let projectList = {
+const projectList = {
   project1: {
     name: 'Tonic',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -39,7 +39,7 @@ seeProject.addEventListener('click', () => {
   header.className = 'work-txt-js';
   modal.appendChild(header);
   modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  document.body.appendChild(modalContainer);
 
   // add the second line
   let subtitle = document.createElement('h6');
@@ -47,7 +47,7 @@ seeProject.addEventListener('click', () => {
   subtitle.classList.add('first-element-ul-js');
   modal.appendChild(subtitle);
   modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  document.body.appendChild(modalContainer);
 
   // the ul contains dev and year
   let ulist = document.createElement('ul');
@@ -70,7 +70,7 @@ seeProject.addEventListener('click', () => {
   img.classList.add('snapshoot-potofolio-js');
   modal.appendChild(img);
   modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  document.body.appendChild(modalContainer);
 
   // add paragraph
   let p = document.createElement('p');
@@ -78,7 +78,7 @@ seeProject.addEventListener('click', () => {
   p.classList.add('work-paragraph-js');
   modal.appendChild(p);
   modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  document.body.appendChild(modalContainer);
   
   // add technologies
   let technolgiy = document.createElement('ul');
@@ -94,5 +94,5 @@ seeProject.addEventListener('click', () => {
   }
   modal.appendChild(technolgiy);
   modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  document.body.appendChild(modalContainer);
 });
