@@ -1093,6 +1093,7 @@ header {
     border-radius: 8px;
     justify-content: center;
   }
+
   .snapshoot-potofolio-js {
     flex: none;
     width: 90%;
@@ -1111,10 +1112,9 @@ header {
   }
 
   .work-txt-js {
-    /* display: inline-block;*/
     width: 25.9rem;
     height: 3.6rem;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 3.2rem;
@@ -1171,17 +1171,18 @@ header {
     color: #344563;
     display: inline;
   }
+
   .first-element-ul-js {
     margin-left: 2rem;
     color: #344563;
     display: inline;
     font-size: 1.4rem;
-    display: inline;
   }
 
   .ul-li-js {
     padding-right: 6rem;
   }
+
   .work-txt {
     margin-top: 4rem;
     margin-left: 0;
@@ -1214,7 +1215,7 @@ header {
     font-size: 1.9vw;
     line-height: 2.9vw;
     margin-left: 2rem;
-}
+  }
 
   .work-buttons {
     flex: none;
