@@ -25,7 +25,7 @@ const projectList = {
     link_live_version: new URL('https://www.google.com'),
     link_to_source: new URL('https://www.google.com'),
     description: ['Canpoy', 'Backend dev', 2015],
-  }
+  },
 };
 
 seeProject.addEventListener('click', () => {
