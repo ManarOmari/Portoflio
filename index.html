@@ -106,12 +106,18 @@
               <li class="js"><a href="#">javascript</a></li>
             </ul>
           </div>
-          <div class="see-project-btn">
-            <a href="#">See Projects</a>
+          <button class="see-project-btn">
+            <span class="seeProject">See Projects</span>
+          </button>
+            <!-- Modal popup-->
+            <div class="modal-container">
+            <div class="modal">
+              
+          </div>
           </div>
         </div>
         
-      </div>
+      
     </section>
 
     <section class="story-wrapper">
@@ -401,19 +407,21 @@
               <input type="text" name="user-name"  class="input" placeholder="Name" required maxlength="30">
             </li>
             <li>
-              <input type="email" name="email"  class="input" placeholder="Email" required  pattern=".+@globex\.com">
+              <input type="email" name="email"  class="input" placeholder="Email" id="mail" value="" required >
             </li>
             <li>
               <textarea name="msg" placeholder="Write your message here" class="textArea input" required maxlength="500"></textarea>
             </li>
             <li>
               <button type="button" class="btn">Get It Touch</button>
+              <br><br>
+              <label for="text" class="txtt"></label>
             </li>
           </ul>
         </form>
       </section>
   </div>
-  <script src="script.js"></script>
+  <script src="vailidation-form.js"></script>
 </body>
 
 </html>
