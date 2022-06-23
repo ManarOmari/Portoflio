@@ -14,7 +14,7 @@ document.querySelectorAll('.list-nav').forEach((n) =>
 );
 
 const modalContainer = document.querySelector('.modal-container');
-const closeBtn = document.querySelector('.closeBtn');
+//const closeBtn = document.querySelector('.closeBtn');
 const seeProject = document.querySelector('.seeProject');
 const modal = document.querySelector('.modal');
 // array to store element
@@ -31,14 +31,14 @@ const projectList = {
 };
 
 seeProject.addEventListener('click', () => {
-  modal_container.classList.add('show');
+  modalContainer.classList.add('show');
 
   // add header
   let header = document.createElement('h2');
   header.innerHTML = projectList.project1.name;
   header.className = 'work-txt-js';
   modal.appendChild(header);
-  modal_container.appendChild(modal);
+  modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
 
   // add the second line
@@ -46,7 +46,7 @@ seeProject.addEventListener('click', () => {
   subtitle.innerHTML = projectList.project1.description[0];
   subtitle.classList.add('first-element-ul-js');
   modal.appendChild(subtitle);
-  modal_container.appendChild(modal);
+  modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
 
   // the ul contains dev and year
@@ -60,8 +60,8 @@ seeProject.addEventListener('click', () => {
   ulist.appendChild(li);
   ulist.appendChild(li1);
   modal.appendChild(ulist);
-  modal_container.appendChild(modal);
-  document.body.appendChild(modal_container);
+  modalContainer.appendChild(modal);
+  document.body.appendChild(modalContainer);
 
   // add img
   let img = document.createElement('img');
@@ -69,7 +69,7 @@ seeProject.addEventListener('click', () => {
   img.src = '/assets/images/Snapshoot-Portfolio.png';
   img.classList.add('snapshoot-potofolio-js');
   modal.appendChild(img);
-  modal_container.appendChild(modal);
+  modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
 
   // add paragraph
@@ -77,7 +77,7 @@ seeProject.addEventListener('click', () => {
   p.innerHTML = projectList.project1.text;
   p.classList.add('work-paragraph-js');
   modal.appendChild(p);
-  modal_container.appendChild(modal);
+  modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
   
   // add technologies
@@ -93,6 +93,6 @@ seeProject.addEventListener('click', () => {
     technolgiy.appendChild(li);
   }
   modal.appendChild(technolgiy);
-  modal_container.appendChild(modal);
+  modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
 });
