@@ -24,7 +24,7 @@ const projectList = {
     technologies: ['html', 'css', 'javascript'],
     link_live_version: new URL('https://www.google.com'),
     link_to_source: new URL('https://www.google.com'),
-    description: ['Canpoy', 'Backend dev', 2015]
+    description: ['Canpoy', 'Backend dev', 2015],
   }
 };
 
