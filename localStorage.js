@@ -13,7 +13,7 @@ const reservedata = (element, val) => {
     const formData = JSON.parse(localStorage.getItem('formObjectData'));
     formData[val] = data;
     localStorage.setItem('formObjectData', JSON.stringify(formData));
- });
+  });
 };
 
 reservedata(userName, 'fnameData');
