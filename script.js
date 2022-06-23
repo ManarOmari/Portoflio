@@ -10,11 +10,11 @@ document.querySelectorAll('.list-nav').forEach((n) =>
   n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
-  })
-);
+  }));
+
 
 const modalContainer = document.querySelector('.modal-container');
-//const closeBtn = document.querySelector('.closeBtn');
+// const closeBtn = document.querySelector('.closeBtn');
 const seeProject = document.querySelector('.seeProject');
 const modal = document.querySelector('.modal');
 // array to store element
@@ -34,7 +34,7 @@ seeProject.addEventListener('click', () => {
   modalContainer.classList.add('show');
 
   // add header
-  let header = document.createElement('h2');
+  const header = document.createElement('h2');
   header.innerHTML = projectList.project1.name;
   header.className = 'work-txt-js';
   modal.appendChild(header);
@@ -42,7 +42,7 @@ seeProject.addEventListener('click', () => {
   document.body.appendChild(modalContainer);
 
   // add the second line
-  let subtitle = document.createElement('h6');
+  const subtitle = document.createElement('h6');
   subtitle.innerHTML = projectList.project1.description[0];
   subtitle.classList.add('first-element-ul-js');
   modal.appendChild(subtitle);
@@ -50,11 +50,11 @@ seeProject.addEventListener('click', () => {
   document.body.appendChild(modalContainer);
 
   // the ul contains dev and year
-  let ulist = document.createElement('ul');
+  const ulist = document.createElement('ul');
   let li = document.createElement('li');
   li.innerHTML = projectList.project1.description[1];
   li.classList.add('ul-li-js');
-  let li1 = document.createElement('li');
+  const li1 = document.createElement('li');
   li1.innerHTML = projectList.project1.description[2];
   ulist.classList.add('list-project-js');
   ulist.appendChild(li);
@@ -64,7 +64,7 @@ seeProject.addEventListener('click', () => {
   document.body.appendChild(modalContainer);
 
   // add img
-  let img = document.createElement('img');
+  const img = document.createElement('img');
   img.innerHTML = projectList.project1.featured_image;
   img.src = '/assets/images/Snapshoot-Portfolio.png';
   img.classList.add('snapshoot-potofolio-js');
@@ -73,7 +73,7 @@ seeProject.addEventListener('click', () => {
   document.body.appendChild(modalContainer);
 
   // add paragraph
-  let p = document.createElement('p');
+  const p = document.createElement('p');
   p.innerHTML = projectList.project1.text;
   p.classList.add('work-paragraph-js');
   modal.appendChild(p);
@@ -81,7 +81,7 @@ seeProject.addEventListener('click', () => {
   document.body.appendChild(modalContainer);
   
   // add technologies
-  let technolgiy = document.createElement('ul');
+  const technolgiy = document.createElement('ul');
   technolgiy.className = 'work-buttons-js ';
   // work buttons
   for (let i = 0; i < 3; i++) {
