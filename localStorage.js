@@ -1,10 +1,10 @@
-const form = document.querySelector('.form-info'); // class name of the form
+const form = document.querySelector('.ContactForm'); 
 
-const {fname, email, messagebox} = form.elements; // name of the form inputs
+const {userName, email, msg} = form.elements; 
 
 
 if (!localStorage.getItem('formObjectData')) {
-    const formData = {fnameData:'',emailData:'',messageData:''}; // change name of object names to name of inputs 
+    const formData = {fnameData:'',emailData:'',messageData:''}; 
 
     localStorage.setItem('formObjectData', JSON.stringify(formData));
 }
@@ -17,6 +17,6 @@ const reservedata = (element, val) => {
     localStorage.setItem('formObjectData', JSON.stringify(formData));})
 }
 
-reservedata(fname, 'fnameData')
+reservedata(userName, 'fnameData')
 reservedata(email, 'emailData')
-reservedata(messagebox, 'messageData')
+reservedata(msg, 'messageData')
