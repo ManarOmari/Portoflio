@@ -5,12 +5,12 @@ const validateEmail = (email) => {
   );
 };
 
-submitBtn.addEventListener("click", () => {
+submitBtn.addEventListener('click', () => {
   let emailVal = document.getElementById('mail').value;
 
   if (!validateEmail(emailVal)) {
     window.alert(
-      "Please enter email as lower case eg. manar.qasem732016@gmail.com"
+      'Please enter email as lower case eg. manar.qasem732016@gmail.com'
     );
   }
 });
