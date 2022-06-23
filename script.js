@@ -7,7 +7,8 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.list-nav').forEach((n) =>
-  n.addEventListener('click', () => { hamburger.classList.remove('active');
+  n.addEventListener('click', () => { 
+    hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
 const modalContainer = document.querySelector('.modal-container');
