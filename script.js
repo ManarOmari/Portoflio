@@ -78,8 +78,8 @@ seeProject.addEventListener('click', () => {
   modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
   // add technologies
-  const technolgiy = document.createElement('ul');
-  technolgiy.className = 'work-buttons-js ';
+  const technology = document.createElement('ul');
+  technology.className = 'work-buttons-js ';
   // work buttons
   for (let i = 0; i < 3; i += 1) {
     li = document.createElement('li');
@@ -87,9 +87,9 @@ seeProject.addEventListener('click', () => {
     li.innerHTML = projectList.project1.technologies[i];
     // add style
     // li.classList.add('work-buttons');
-    technolgiy.appendChild(li);
+    technology.appendChild(li);
   }
-  modal.appendChild(technolgiy);
+  modal.appendChild(technology);
   modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
 });
