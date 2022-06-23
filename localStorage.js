@@ -8,11 +8,12 @@ if (!localStorage.getItem('formObjectData')) {
 }
 
 const reservedata = (element, val) => {
-  element.addEventListener('change', (e) => {
+  element.addEventListener('change', () => {
     const data = element.value;
     const formData = JSON.parse(localStorage.getItem('formObjectData'));
     formData[val] = data;
-    localStorage.setItem('formObjectData', JSON.stringify(formData)); });
+    localStorage.setItem('formObjectData', JSON.stringify(formData)); }
+    );
 };
 
 reservedata(userName, 'fnameData');
