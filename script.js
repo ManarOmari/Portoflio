@@ -11,8 +11,6 @@ document.querySelectorAll('.list-nav').forEach((n) =>
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
-
-
 const modalContainer = document.querySelector('.modal-container');
 // const closeBtn = document.querySelector('.closeBtn');
 const seeProject = document.querySelector('.seeProject');
@@ -26,7 +24,7 @@ const projectList = {
     technologies: ['html', 'css', 'javascript'],
     link_live_version: new URL('https://www.google.com'),
     link_to_source: new URL('https://www.google.com'),
-    description: ['Canpoy', 'Backend dev', 2015],
+    description: ['Canpoy', 'Backend dev', 2015]
   }
 };
 
@@ -79,7 +77,6 @@ seeProject.addEventListener('click', () => {
   modal.appendChild(p);
   modalContainer.appendChild(modal);
   document.body.appendChild(modalContainer);
-  
   // add technologies
   const technolgiy = document.createElement('ul');
   technolgiy.className = 'work-buttons-js ';
