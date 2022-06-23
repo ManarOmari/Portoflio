@@ -1,6 +1,9 @@
 const submitBtn = document.querySelector('.btn');
 const validateEmail = (email) => {
-  return (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/));
+  if(email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/))
+   return true;
+   else 
+  return false;
 };
 
 submitBtn.addEventListener('click', () => {
