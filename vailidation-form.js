@@ -2,11 +2,11 @@ const submitBtn = document.querySelector('.btn');
 const validateEmail = (email) => {
   return email.match(
     /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:.[a-z0-9-]+)*$/
-  );
+  ,);
 };
 
 submitBtn.addEventListener('click', () => {
-  let emailVal = document.getElementById('mail').value;
+  const emailVal = document.getElementById('mail').value;
 
   if (!validateEmail(emailVal)) {
     window.alert(
