@@ -1,14 +1,13 @@
 const submitBtn = document.querySelector('.btn');
 const validateEmail = (email) => {
-  if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
-    return true;
+    return email.toLowercase();
   }
-  return false;
-};
 
 submitBtn.addEventListener('click', () => {
   const emailVal = document.getElementById('mail').value;
   if (!validateEmail(emailVal)) {
-    document.querySelector('.txtt').innerHTML = ' please enter correct email in lower case eg abcde@fgh.com';
+    window.alert(
+        'Please enter email as lower case eg. manar.omari@gmail.com'
+      );
   }
 });
