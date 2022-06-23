@@ -7,8 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.list-nav').forEach((n) =>
-  n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
+  n.addEventListener('click', () => { hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
 const modalContainer = document.querySelector('.modal-container');
@@ -81,7 +80,7 @@ seeProject.addEventListener('click', () => {
   const technolgiy = document.createElement('ul');
   technolgiy.className = 'work-buttons-js ';
   // work buttons
-  for (let i = 0; i < 3; i+=1) {
+  for (let i = 0; i < 3; i += 1) {
     li = document.createElement('li');
     li.classList.add('list-btn-js');
     li.innerHTML = projectList.project1.technologies[i];
